@@ -44,5 +44,7 @@ $ eval $(docker-machine env)
 $ git clone https://github.com/blacktop/docker-cuckoo
 $ cd docker-cuckoo
 $ docker-compose up -d
-$ curl $(docker-machine ip):8000/cuckoo/status
+$ docker-compose ps
 ```
+
+それでもErrorでるやんけ。。。
